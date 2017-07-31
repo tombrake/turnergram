@@ -14,6 +14,71 @@ video 			{ position: absolute; background-color: transparent; display: none;  ma
 #_settingsRight { position: absolute; width: 255px; height:  100%; background-color: transparent; right: 0; }
 #_msg           { position: absolute; width: 100%;  height:  40px; background-color: transparent; bottom: 0; }
 
+.portrait-wrapper { 
+  width: 413;
+  min-width: 413;
+  margin: 0 auto;
+}
+.iphone-bg-portrait { 
+  background-image: url(./../assets/iphone-portrait.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 800px;
+  width: 413px;
+  margin: 0 auto;
+  z-index:1000;
+}
+
+.landing-row { 
+  background-color: #fff;
+  margin-left:50px;
+  width: 300px;
+  height: 170px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top:10px;
+  overflow: hidden;
+}
+.row-title { 
+  height: 20px;
+  vertical-align: top;
+  display: flex;
+  font-weight: bold;
+}
+
+.row-icon-container { 
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.icon-container { 
+  flex-wrap: wrap;
+  margin-right: 25px;
+
+}
+.square-icon { 
+  display: flex;
+  flex-wrap: wrap;
+  width: 120px;
+  height: 120px;
+  border: 2px solid black;
+  margin-right: 10px;
+}
+.square-icon .show-image { 
+  display: flex;
+  flex-wrap: nowrap;
+  width: 120px;
+  height: 120px;
+}
+.portrait-contents { 
+  position: absolute;
+  top:150px;
+  height: 500px;
+  overflow: hidden;
+  z-index: 300;
+}
+
 .background{
     position: absolute;
     top: 0;
@@ -27,6 +92,18 @@ video 			{ position: absolute; background-color: transparent; display: none;  ma
   margin: 20px auto;
 
 }
+
+.inner-portrait {
+  position: absolute;
+  width: 480;
+  height: 640px;
+
+  top: 45px;
+  left: 20.3%;
+  margin-left: -50px;
+  background-color: #00c;
+}
+
 
 .inner {
   position: absolute;
